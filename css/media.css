@@ -1,0 +1,43 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 100%;
+        
+    }
+    .logo {
+       min-width: 300px;
+    }
+
+}
+
+ @media (max-width: 992px) {
+ .intensive_box {
+    flex-direction: column;
+    align-items: center;
+ }
+ .intensive {
+    height: auto;
+    max-width: 100%;
+ }
+ .intensive_item .img {
+    max-width: 100%;
+ }
+
+ .skills_box {
+    flex-wrap: wrap;
+    align-items: center;
+ }
+ .skills_item {
+    justify-content: center;
+ }
+
+ .about {
+    height: auto;
+ }
+ .about_text {
+    padding: 50px;
+ }
+ .about_woman {
+    display: none;
+ }
+
+ 
